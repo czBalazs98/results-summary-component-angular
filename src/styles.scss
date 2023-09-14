@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "colors.scss";
+
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: HankenGrotesk;
+}
+
+.bg-slate-to-royal-blue {
+    background-image: linear-gradient($light-slate-blue, $light-royal-blue);
+}
+
+.text-light-lavender {
+    color: $light-lavender;
+}
+
+.text-light-red {
+    color: $light-red;
+}
+
+.text-orangey-yellow {
+    color: $orangey-yellow;
+}
+
+.text-green-teal {
+    color: $green-teal;
+}
+
+.text-cobalt-blue {
+    color: $cobalt-blue;
+}
+
+.text-dark-gray-blue-lighter {
+    color: $dark-gray-blue-lighter;
+}
+
+.shadow-light-lavender {
+    box-shadow: 0 25px 50px -12px $light-lavender;
+}
