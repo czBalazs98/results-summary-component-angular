@@ -1,3 +1,41 @@
-<div>
-    <p>summary works!</p>
+<div class="p-8 flex flex-col h-full">
+  <p class="font-bold mb-2">Summary</p>
+
+  <div class="flex-grow">
+    <app-summary-list-item
+      imgSrc="./assets/images/icon-reaction.svg"
+      bgColor="bg-light-red-lighter"
+      textColor="text-light-red"
+      text="Reaction"
+      points="80"
+    ></app-summary-list-item>
+
+    <app-summary-list-item
+      imgSrc="./assets/images/icon-memory.svg"
+      bgColor="bg-orangey-yellow-lighter"
+      textColor="text-orangey-yellow"
+      text="Memory"
+      points="92"
+    ></app-summary-list-item>
+
+    <app-summary-list-item
+      imgSrc="./assets/images/icon-verbal.svg"
+      bgColor="bg-green-teal-lighter"
+      textColor="text-green-teal"
+      text="Verbal"
+      points="61"
+    ></app-summary-list-item>
+
+    <app-summary-list-item
+      imgSrc="./assets/images/icon-visual.svg"
+      bgColor="bg-cobalt-blue-lighter"
+      textColor="text-cobalt-blue"
+      text="Visual"
+      points="72"
+    ></app-summary-list-item>
+  </div>
+
+  <button class="rounded-3xl bg-dark-gray-blue text-white p-2 continue-button">
+    Continue
+  </button>
 </div>

@@ -16,8 +16,32 @@ body {
     font-family: HankenGrotesk;
 }
 
+.continue-button:hover {
+    background-color: $light-royal-blue;
+}
+
 .bg-slate-to-royal-blue {
     background-image: linear-gradient($light-slate-blue, $light-royal-blue);
+}
+
+.bg-light-red-lighter {
+    background-color: $light-red-lighter;
+}
+
+.bg-orangey-yellow-lighter {
+    background-color: $orangey-yellow-lighter;
+}
+
+.bg-green-teal-lighter {
+    background-color: $green-teal-lighter;
+}
+
+.bg-cobalt-blue-lighter {
+    background-color: $cobalt-blue-lighter;
+}
+
+.bg-dark-gray-blue {
+    background-color: $dark-gray-blue;
 }
 
 .text-light-lavender {
